@@ -1,0 +1,110 @@
+<style>
+
+    .main{
+
+    }
+    .container-third {
+        width: 33.33%;
+    }
+
+    .container-half {
+        width: 50%;
+    }
+
+    .image {
+        opacity: 1;
+        display: block;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%)
+    }
+
+    .container-third:hover .image {
+        opacity: 0.3;
+    }
+
+    .container-third:hover .middle {
+        opacity: 1;
+    }
+
+    .container-half:hover .image {
+        opacity: 0.3;
+    }
+
+    .container-half:hover .middle {
+        opacity: 1;
+    }
+
+    .text {
+        background-color: #41beab;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+    }
+</style>
+
+
+
+<div class="main" style="font-size: 0">
+    <div class="container-third">
+        <img src="https://media.giphy.com/media/xUPGcoRh73QCzbxIiI/giphy.gif" class="image">
+        <div class="middle">
+            <div class="text">Fashion</div>
+        </div>
+    </div>
+
+    <div class="container-third">
+        <img src="https://media.giphy.com/media/3oKIPrG8SmgrsWVR8A/giphy.gif" class="image">
+        <div class="middle">
+            <div class="text">GLTR</div>
+        </div>
+    </div>
+
+    <div class="container-third">
+        <img src="https://media.giphy.com/media/l4FGzYERFnJqZzvu8/giphy.gif" class="image">
+        <div class="middle">
+            <div class="text">GLTR</div>
+        </div>
+    </div>
+
+    <div class="container-half">
+        <img src="https://media.giphy.com/media/l4FGHsrU0QFVkVNzG/giphy.gif">
+        <div class="middle">
+            <div class="text">GLTR</div>
+        </div>
+    </div>
+
+
+    <div class="container-half">
+        <img src="https://media.giphy.com/media/3og0IFZV4lzqCNKoYU/giphy.gif">
+        <div class="middle">
+            <div class="text">GLTR</div>
+        </div>
+    </div>
+
+
+    <div class="container-third">
+        <img src="https://media.giphy.com/media/3ohzdIHMVJDk9FduRG/giphy.gif">
+        <div class="middle">
+            <div class="text"></div>
+        </div>
+    </div>
+
+    <div class="container-third">
+        <img src="https://media.giphy.com/media/3ohzdIHMVJDk9FduRG/giphy.gif">
+        <div class="middle">
+            <div class="text"></div>
+        </div>
+    </div>
+
+</div>
